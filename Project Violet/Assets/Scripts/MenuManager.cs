@@ -14,6 +14,10 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Creditos");
     }
 
+    public void SairCreditos()
+    {
+        SceneManager.LoadScene("Menu");
+    }
    
     public void SairDoJogo()
     {
